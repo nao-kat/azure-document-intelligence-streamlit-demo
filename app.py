@@ -1,5 +1,3 @@
-#pip install python-dotenv
-
 import streamlit as st
 import json
 import os
