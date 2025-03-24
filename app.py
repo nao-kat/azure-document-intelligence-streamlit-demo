@@ -17,7 +17,7 @@ credential = AzureKeyCredential(KEY)
 document_intelligence_client = DocumentIntelligenceClient(endpoint=ENDPOINT, credential=credential)
 
 # Streamlitインターフェース
-st.title("Azure AI Document Intelligence OCR demo")
+st.title("Azure AI Document Intelligence [OCR demo]")
 
 # 対応するファイル形式
 supported_file_types = ["pdf", "jpeg", "jpg", "png", "bmp", "tiff", "heif", "docx", "xlsx", "pptx", "html"]
